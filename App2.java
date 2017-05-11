@@ -73,7 +73,11 @@ public class App2
                 str += (num + offset);
             }
             // 文字列を整数値に変換しつつ結果のリストに追加
-            results.add( Integer.parseInt(str) );
+            // s変更
+            if( str != "" )
+            {
+                results.add( Integer.parseInt(str) );
+            }
         }
 
         return results;
