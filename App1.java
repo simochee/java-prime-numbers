@@ -33,6 +33,11 @@ public class App1
             }
         }
 
+        /**
+         * 素数かどうかを表示します
+         */
+        System.out.println(num + "は、素数" + (result ? "です" : "ではありません") + "。");
+
         return result;
     }
 
